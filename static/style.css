@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    padding: 20px;
+    color: #333;
+}
+
+.delete-btn,
+.update-btn,
+.like-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn:hover,
+.update-btn:hover,
+.like-btn {
+    background-color: #b52a37;
+}
+
+#add-link {
+    text-align: a;
+    position: fixed;
+    width: 100vw;
+
+}
+
+.likes {
+    position: relative;
+    justify-content: end;
+    align-items: end;
+}
+
+h1 {
+    text-align: center;
+    color: #4F4F4F;
+}
+
+.post {
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+.post p {
+    margin: 10px 0;
+}
+
+.post-actions {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.post .likes {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
